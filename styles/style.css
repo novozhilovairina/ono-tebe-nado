@@ -13,6 +13,10 @@ body {
   font-size: 18px;
 }
 
+.header__menu {
+  text-underline-offset: 5px;
+}
+
 .header__links-list {
   display: flex;
   list-style: circle;
@@ -27,6 +31,7 @@ body {
   font-style: normal;
   justify-self: end;
   line-height: 1.35;
+  text-underline-offset: 5px;
 }
 
 .header__address {
@@ -48,8 +53,7 @@ body {
 .overlay {
   position: absolute;
   z-index: -1;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   background-color: rgb(0 0 0 / 0.6);
@@ -190,6 +194,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 1.2;
+  text-underline-offset: 3px;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -202,4 +207,69 @@ body {
 
 .lots__look-more-link {
   margin-left: 40px;
+  text-underline-offset: 5px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  column-gap: 25px;
+  padding: 0 50px 180px 50px;
+}
+
+.about__logo {
+  display: flex;
+  width: 240px;
+  height: 240px;
+  margin: 0 95px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  margin: auto;
+}
+
+.about__title {
+  margin: 100px auto;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.text_margin_bottom {
+  margin-bottom: 25px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 50px 90px 50px;
+}
+
+.footer_adress {
+  font-style: normal;
+  justify-self: start;
+  line-height: 1.35;
+  text-underline-offset: 5px;
+}
+
+.footer__menu-list {
+  text-align: center;
+  list-style: none;
+  text-underline-offset: 5px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-self: end;
+  width: 240px;
+  gap: 48px;
+  list-style: none;
 }
