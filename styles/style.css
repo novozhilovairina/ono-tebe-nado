@@ -1,0 +1,121 @@
+body {
+  max-width: 1440px;
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.header {
+  margin: 92px 49px 92px 51px;
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  font-size: 18px;
+}
+
+.header__links-list {
+  display: flex;
+  list-style: circle;
+  gap: 32px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.adress {
+  font-style: normal;
+  justify-self: end;
+  line-height: 1.35;
+}
+
+.header__address {
+  width: 240px;
+}
+
+.cover {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  justify-content: flex-end;
+  height: 763.939px;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.overlay {
+  position: relative;
+  z-index: -0;
+  width: 100%;
+  background-color: rgb(0 0 0 / 0.6);
+  background-size: cover;
+}
+
+.cover__title {
+  position: absolute;
+  z-index: 1;
+  width: 1340px;
+  height: 355px;
+  margin: 165px 50px 237px 50px;
+  color: #FFF;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+} 
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  line-height: 1;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.aligned-text_right {
+  text-align: right;
+  line-height: 1;
+} 
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+
+.cover__description {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  margin-top: 655px;
+}
+
+.cover__description-text {
+  margin-right: 80px;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 28px;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  border: 1px solid #FFF;
+  background: transparent;
+  padding: 12px 32px;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  line-height: normal;
+  text-transform: uppercase;
+}
