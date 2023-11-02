@@ -8,8 +8,8 @@ body {
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 92px 49px 96px 51px;
   align-items: center;
+  padding: 92px 49px 96px 51px;
   font-size: 18px;
 }
 
@@ -19,8 +19,8 @@ body {
 
 .header__links-list {
   display: flex;
-  list-style: circle;
   gap: 32px;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -28,14 +28,14 @@ body {
 }
 
 .header__logo {
+  justify-self: center;
   width: 148px;
   height: 105px;
-  justify-self: center;
 }
 
 .adress {
-  font-style: normal;
   justify-self: end;
+  font-style: normal;
   line-height: 1.35;
   text-underline-offset: 5px;
 }
@@ -51,15 +51,15 @@ body {
   justify-content: flex-end;
   height: 757px;
   background-image: url(../images/cover.jpg);
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-} 
+}
 
 .overlay {
   position: absolute;
-  z-index: -1;
   inset: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
   background-color: rgb(0 0 0 / 0.6);
@@ -72,29 +72,29 @@ body {
   width: 1340px;
   height: 355px;
   margin: 165px 50px 237px 50px;
-  color: #FFF;
+  color: #fff;
+  font-weight: bold;
   font-size: 100px;
   font-style: normal;
-  font-weight: bold;
   line-height: 1.15;
   letter-spacing: 30px;
   text-transform: uppercase;
-} 
+}
 
 .aligned-text {
   display: block;
 }
 
 .aligned-text_center {
+  margin: 20px auto;
   line-height: 1;
   text-align: center;
-  margin: 20px auto;
 }
 
 .aligned-text_right {
-  text-align: right;
   line-height: 1;
-} 
+  text-align: right;
+}
 
 .letter-spacing-extended {
   letter-spacing: 60px;
@@ -108,29 +108,29 @@ body {
   position: absolute;
   display: flex;
   align-items: center;
-  margin-right: 50px;
   margin-top: 655px;
+  margin-right: 50px;
 }
 
 .cover__description-text {
   margin-right: 80px;
-  color: #FFF;
-  text-align: center;
+  color: #fff;
   font-size: 22px;
-  text-transform: uppercase;
   line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
   word-spacing: 18px;
 }
 
 .bet-button {
-  border: 1px solid #FFF;
-  background: transparent;
+  border: 1px solid #fff;
   padding: 12px 32px;
-  color: #FFF;
-  text-align: center;
+  color: #fff;
   font-size: 22px;
   line-height: normal;
+  text-align: center;
   text-transform: uppercase;
+  background: transparent;
 }
 
 .lots {
@@ -139,11 +139,11 @@ body {
 }
 
 .lots__heading {
-  font-size: 40px;
-  font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 27px;
   margin-left: 40px;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -152,8 +152,8 @@ body {
   gap: 25px;
   width: 100%;
   margin-bottom: 30px;
-  list-style: none;
   text-decoration: none;
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -178,7 +178,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 50px 40px;
-  color: #FFF;
+  color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -200,8 +200,8 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 1.2;
-  text-underline-offset: 3px;
   text-decoration: underline;
+  text-underline-offset: 3px;
   text-transform: uppercase;
 }
 
@@ -257,16 +257,16 @@ body {
 }
 
 .footer_adress {
-  font-style: normal;
   justify-self: start;
+  font-style: normal;
   line-height: 1.35;
   text-underline-offset: 5px;
 }
 
 .footer__menu-list {
   text-align: center;
-  list-style: none;
   text-underline-offset: 5px;
+  list-style: none;
 }
 
 .footer__menu-link_active {
@@ -276,7 +276,7 @@ body {
 .footer__social-list {
   display: flex;
   justify-self: end;
-  width: 240px;
   gap: 48px;
+  width: 240px;
   list-style: none;
 }
