@@ -6,9 +6,9 @@ body {
 }
 
 .header {
-  margin: 92px 49px 92px 51px;
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 92px 49px 96px 51px;
   align-items: center;
   font-size: 18px;
 }
@@ -27,6 +27,12 @@ body {
   list-style: none;
 }
 
+.header__logo {
+  width: 148px;
+  height: 105px;
+  justify-self: center;
+}
+
 .adress {
   font-style: normal;
   justify-self: end;
@@ -43,7 +49,7 @@ body {
   z-index: -1;
   display: flex;
   justify-content: flex-end;
-  height: 763.939px;
+  height: 757px;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -247,6 +253,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 0 50px 90px 50px;
+  font-size: 18px;
 }
 
 .footer_adress {
